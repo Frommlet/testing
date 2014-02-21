@@ -1,0 +1,21 @@
+#!/bin/bash
+#Example script!
+
+num=0
+max=10
+
+while [ $num -le  $max ]
+do
+echo $num
+((num++))
+sleep 1
+done
+echo "HAPPY BIRTHDAY!"
+sleep 1
+clear
+sleep 3
+echo "You suck"
+sleep .5
+clear
+
+#That is the end of the script.  It's small, and broken.... But still good.

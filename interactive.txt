@@ -1,0 +1,10 @@
+#!/bin/bash
+#Script with interaction, hopefully.
+
+echo "Hello user, would you like to know your system information? (Y/N)"
+read var1
+if [ $var1 == "Y" ]; then
+system_profiler
+if [ $var1 == "N" ]; then
+echo "Fine, see if I care."
+fi

@@ -5,7 +5,7 @@
 var1 = "n"
 
 # Prompt user and read in their input
-echo "Hello $USER, would you like to know your system information? (y/n)"
+echo "Hello $USER, would you like to know your system information? (y)"
 read var1
 
 # If user wants info call system_profiler, otherwise print passive-aggressive message
